@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Clean Copy Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the Clean Copy Chrome extension.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f6f8fa;
+      --surface: #ffffff;
+      --text: #17202a;
+      --muted: #57606a;
+      --border: #d8dee6;
+      --accent: #2f9e44;
+      --accent-soft: #eaf7ed;
+      --link: #0969da;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #0d1117;
+        --surface: #161b22;
+        --text: #e6edf3;
+        --muted: #9da7b3;
+        --border: #30363d;
+        --accent: #56d364;
+        --accent-soft: #17351f;
+        --link: #58a6ff;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(820px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(24px, 5vw, 52px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 12px 36px rgb(0 0 0 / 8%);
+    }
+
+    header {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      display: grid;
+      flex: 0 0 auto;
+      width: 52px;
+      height: 52px;
+      place-items: center;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 800;
+      letter-spacing: -.04em;
+    }
+
+    h1, h2 { line-height: 1.25; }
+    h1 { margin: 0; font-size: clamp(1.75rem, 5vw, 2.4rem); }
+    h2 { margin: 2rem 0 .65rem; font-size: 1.2rem; }
+    p, ul { margin: .65rem 0; }
+    ul { padding-left: 1.4rem; }
+    a { color: var(--link); }
+    .updated { margin: .3rem 0 0; color: var(--muted); font-size: .92rem; }
+
+    .summary {
+      margin: 24px 0;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: var(--accent-soft);
+    }
+
+    footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: .92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="logo" aria-hidden="true">CC</div>
+      <div>
+        <h1>Clean Copy Privacy Policy</h1>
+        <p class="updated">Effective and last updated: September 4, 2026</p>
+      </div>
+    </header>
+
+    <div class="summary">
+      <strong>Summary:</strong> Clean Copy processes content only in the user's browser after the user invokes the extension. It does not send page content or copied data to the developer or any external service.
+    </div>
+
+    <h2>1. About Clean Copy</h2>
+    <p>Clean Copy is a Chrome extension that helps users extract and format useful content from the active webpage for copying to the clipboard. It supports structured copying from selected applications and provides general clean-copy and area-selection tools.</p>
+
+    <h2>2. Information the extension may process</h2>
+    <p>Depending on the page the user chooses to copy, Clean Copy may temporarily process the following categories of information:</p>
+    <ul>
+      <li><strong>Personally identifiable information</strong>, such as names, email addresses, telephone numbers, postal addresses, usernames, account numbers, ticket numbers, and other identifiers.</li>
+      <li><strong>Financial and payment information</strong>, such as transaction amounts, booking totals, balances, and payment-related fields displayed on a page.</li>
+      <li><strong>Authentication information</strong>, if credentials, access-token fields, or similar information are visibly present in content the user chooses to copy.</li>
+      <li><strong>Personal communications</strong>, including support tickets, emails, chat messages, issue discussions, comments, and internal notes.</li>
+      <li><strong>Location information</strong>, such as postal addresses, IP addresses, latitude, or longitude displayed on a page.</li>
+      <li><strong>Web browsing information</strong> limited to the active page the user invokes Clean Copy on, including its URL, page title, and visible content. Clean Copy does not collect or maintain a history of pages the user visits.</li>
+      <li><strong>Website content</strong>, including visible text, tables, links, labels, metadata, and other content selected for copying.</li>
+    </ul>
+    <p>Clean Copy does not intentionally collect health information or monitor user activity such as browsing behavior, keystrokes, mouse movements, or scrolling.</p>
+
+    <h2>3. How information is used</h2>
+    <p>Information is processed solely to provide the user-requested copying and formatting features. The extension may expand collapsed page sections, remove interface clutter, organize content into readable text or Markdown, and place the result on the user's clipboard.</p>
+    <p>Clean Copy does not use information for advertising, profiling, analytics, creditworthiness, lending, or any purpose unrelated to its user-facing copying functionality.</p>
+
+    <h2>4. Local processing and retention</h2>
+    <p>Page content is processed locally in the user's browser. Clean Copy does not transmit copied page content to the developer or to an external server, and it does not retain that content after the copy operation.</p>
+    <p>The resulting content is placed on the system clipboard. The user controls where it is subsequently pasted or shared. Clipboard retention is controlled by the user's operating system and other software, not by Clean Copy.</p>
+
+    <h2>5. Locally stored preferences</h2>
+    <p>Clean Copy uses Chrome's local extension storage to remember user-selected preferences, such as whether links, internal notes, or system notes should be included. These preferences do not contain copied page content and are not transmitted to the developer.</p>
+
+    <h2>6. Sharing and sale of information</h2>
+    <p>Clean Copy does not sell, rent, disclose, or transfer user data to the developer, advertisers, data brokers, analytics services, or other third parties. The user may independently choose to paste clipboard content into another application or service; that action is controlled by the user and is subject to the privacy practices of the destination service.</p>
+
+    <h2>7. Permissions</h2>
+    <ul>
+      <li><strong>activeTab:</strong> provides temporary access to the active page only after the user invokes the extension.</li>
+      <li><strong>scripting:</strong> allows the bundled Clean Copy code to inspect and format content on that active page.</li>
+      <li><strong>storage:</strong> stores the user's extension preferences locally.</li>
+    </ul>
+    <p>Clean Copy does not request persistent access to every website, execute remotely hosted code, or include advertising and tracking technology.</p>
+
+    <h2>8. Security and responsible use</h2>
+    <p>Users should review copied content before sharing it and follow their organization's policies for customer information, confidential communications, credentials, financial information, and audit data. Users should paste sensitive content only into approved systems.</p>
+
+    <h2>9. Limited Use compliance</h2>
+    <p>Clean Copy's use of information received from Chrome APIs complies with the Chrome Web Store User Data Policy, including the Limited Use requirements. Information is used only as necessary to provide the extension's disclosed, user-facing copying functionality.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>This policy may be updated when Clean Copy's functionality or legal obligations change. The effective date at the top of this page will be revised when changes are published.</p>
+
+    <h2>11. Contact</h2>
+    <p>For privacy questions about Clean Copy, contact: <strong>sclark@ownerrez.com</strong>.</p>
+
+    <footer>
+      Clean Copy does not send website content to an AI service. References to “AI Analysis” describe the formatting of clipboard output; users decide whether and where to paste that output.
+    </footer>
+  </main>
+</body>
+</html>
